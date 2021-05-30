@@ -10,7 +10,7 @@ trigger:
       - master
 
 pool:
-  vmImage: 'LinuxUbuntuPool'
+  name: LinuxUbuntuPool
 
 variables:
   ImageName: 'k123gavali/microservicedemo:$(Build.BuildId)'
