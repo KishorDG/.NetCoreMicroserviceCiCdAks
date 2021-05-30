@@ -41,4 +41,4 @@ stages:
               dockerRegistryEndpoint: 'Docker Hub'
               command: Build an image
               imageName: '$(ImageName)'
-            condition: add(succeeded(), ne(variables['Build.Reason'], 'PullRequest'))
+            #condition: add(succeeded(), ne(variables['Build.Reason'], 'PullRequest'))
